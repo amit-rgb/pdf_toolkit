@@ -1,0 +1,6 @@
+{
+  "name": "PDF Toolkit",
+  "description": "Zero-cost, private, mobile-first PDF utility app for Android. Perform PDF merge, split, compress, text extraction, page editing, images-to-pdf, viewer, and OCR locally on device.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

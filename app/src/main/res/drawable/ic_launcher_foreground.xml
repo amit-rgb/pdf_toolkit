@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Subtle Document Drop Shadow -->
+    <path
+        android:fillColor="#33000000"
+        android:pathData="M35,28 L62,28 L79,45 L79,84 C79,87.3 76.3,90 73,90 L35,90 C31.7,90 29,87.3 29,84 L29,34 C29,30.7 31.7,28 35,28 Z" />
+    <!-- White Document Body with folded corner -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M33,25 L60,25 L77,42 L77,81 C77,83.8 74.8,86 72,86 L33,86 C30.2,86 28,83.8 28,81 L28,30 C28,27.2 30.2,25 33,25 Z" />
+    <!-- Folded Corner Flap with shading -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M60,25 L77,42 L62,42 C60.9,42 60,41.1 60,40 Z" />
+    <!-- PDF Crimson Accent Badge -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M34,44 L71,44 C72.1,44 73,44.9 73,46 L73,62 C73,63.1 72.1,64 71,64 L34,64 C32.9,64 32,63.1 32,62 L32,46 C32,44.9 32.9,44 34,44 Z" />
+    <!-- "P" Glyph on Badge -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,48 L44,48 C45.7,48 47,49.1 47,50.5 C47,51.9 45.7,53 44,53 L40.5,53 L40.5,59.5 L38,59.5 Z M40.5,50.2 L40.5,51.3 L43.5,51.3 C44.1,51.3 44.5,50.9 44.5,50.5 C44.5,50.1 44.1,49.7 43.5,49.7 L40.5,49.7 Z" />
+    <!-- "D" Glyph on Badge -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48.5,48 L53,48 C55.5,48 57.5,49.5 57.5,53.7 C57.5,58 55.5,59.5 53,59.5 L48.5,59.5 Z M51,50.3 L51,57.2 L52.8,57.2 C54.3,57.2 55,56 55,53.7 C55,51.5 54.3,50.3 52.8,50.3 Z" />
+    <!-- "F" Glyph on Badge -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M59.5,48 L67,48 L67,50.3 L62,50.3 L62,52.8 L66.2,52.8 L66.2,54.9 L62,54.9 L62,59.5 L59.5,59.5 Z" />
+    <!-- Modern Document Content Accent Lines -->
+    <path
+        android:fillColor="#B0BEC5"
+        android:pathData="M36,70 L69,70 A1.5,1.5 0 0,1 69,73 L36,73 A1.5,1.5 0 0,1 36,70 Z" />
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M36,76 L58,76 A1.5,1.5 0 0,1 58,79 L36,79 A1.5,1.5 0 0,1 36,76 Z" />
+    <!-- Small Tool / Shield Sparkle -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M69,32 L70.5,35.5 L74,37 L70.5,38.5 L69,42 L67.5,38.5 L64,37 L67.5,35.5 Z" />
+</vector>
