@@ -1,10 +1,10 @@
-package com.example
+package com.abhisadan.pdftoolkit
 
-import com.example.engine.DrawingPoint
-import com.example.engine.DrawingStroke
-import com.example.engine.PageAnnotations
-import com.example.engine.PageSizePreset
-import com.example.engine.TextAnnotation
+import com.abhisadan.pdftoolkit.engine.DrawingPoint
+import com.abhisadan.pdftoolkit.engine.DrawingStroke
+import com.abhisadan.pdftoolkit.engine.PageAnnotations
+import com.abhisadan.pdftoolkit.engine.PageSizePreset
+import com.abhisadan.pdftoolkit.engine.TextAnnotation
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
