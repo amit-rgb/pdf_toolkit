@@ -1,4 +1,4 @@
-package com.example.ui.theme
+package com.abhisadan.pdftoolkit.ui.theme
 
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
