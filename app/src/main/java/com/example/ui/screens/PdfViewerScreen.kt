@@ -1,4 +1,4 @@
-package com.example.ui.screens
+package com.abhisadan.pdftoolkit.ui.screens
 
 import android.graphics.Bitmap
 import android.net.Uri
@@ -83,10 +83,10 @@ import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.activity.compose.rememberLauncherForActivityResult
-import com.example.engine.PdfEngine
-import com.example.ui.components.PdfTopBar
-import com.example.ui.theme.PdfPrimary
-import com.example.ui.viewmodel.PdfViewModel
+import com.abhisadan.pdftoolkit.engine.PdfEngine
+import com.abhisadan.pdftoolkit.ui.components.PdfTopBar
+import com.abhisadan.pdftoolkit.ui.theme.PdfPrimary
+import com.abhisadan.pdftoolkit.ui.viewmodel.PdfViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
