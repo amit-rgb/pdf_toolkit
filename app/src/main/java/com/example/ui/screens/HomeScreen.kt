@@ -1,4 +1,4 @@
-package com.example.ui.screens
+package com.abhisadan.pdftoolkit.ui.screens
 
 import android.net.Uri
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -53,16 +53,16 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.data.RecentFileEntity
-import com.example.ui.components.PrivacyBadge
-import com.example.ui.components.WorldClassFeatureCard
-import com.example.ui.theme.CardBorderGradient
-import com.example.ui.theme.PdfPrimary
-import com.example.ui.theme.ToolCoral
-import com.example.ui.theme.ToolEmerald
-import com.example.ui.theme.ToolIndigo
-import com.example.ui.viewmodel.PdfViewModel
-import com.example.ui.viewmodel.ScreenDestination
+import com.abhisadan.pdftoolkit.data.RecentFileEntity
+import com.abhisadan.pdftoolkit.ui.components.PrivacyBadge
+import com.abhisadan.pdftoolkit.ui.components.WorldClassFeatureCard
+import com.abhisadan.pdftoolkit.ui.theme.CardBorderGradient
+import com.abhisadan.pdftoolkit.ui.theme.PdfPrimary
+import com.abhisadan.pdftoolkit.ui.theme.ToolCoral
+import com.abhisadan.pdftoolkit.ui.theme.ToolEmerald
+import com.abhisadan.pdftoolkit.ui.theme.ToolIndigo
+import com.abhisadan.pdftoolkit.ui.viewmodel.PdfViewModel
+import com.abhisadan.pdftoolkit.ui.viewmodel.ScreenDestination
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date
