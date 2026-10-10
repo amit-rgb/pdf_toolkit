@@ -1,4 +1,4 @@
-package com.example
+package com.abhisadan.pdftoolkit
 
 import android.content.Intent
 import android.os.Bundle
@@ -18,15 +18,15 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.ui.components.ProcessingDialog
-import com.example.ui.screens.HomeScreen
-import com.example.ui.screens.ImageToPdfScreen
-import com.example.ui.screens.MergePdfScreen
-import com.example.ui.screens.PdfEditScreen
-import com.example.ui.screens.PdfViewerScreen
-import com.example.ui.theme.MyApplicationTheme
-import com.example.ui.viewmodel.PdfViewModel
-import com.example.ui.viewmodel.ScreenDestination
+import com.abhisadan.pdftoolkit.ui.components.ProcessingDialog
+import com.abhisadan.pdftoolkit.ui.screens.HomeScreen
+import com.abhisadan.pdftoolkit.ui.screens.ImageToPdfScreen
+import com.abhisadan.pdftoolkit.ui.screens.MergePdfScreen
+import com.abhisadan.pdftoolkit.ui.screens.PdfEditScreen
+import com.abhisadan.pdftoolkit.ui.screens.PdfViewerScreen
+import com.abhisadan.pdftoolkit.ui.theme.MyApplicationTheme
+import com.abhisadan.pdftoolkit.ui.viewmodel.PdfViewModel
+import com.abhisadan.pdftoolkit.ui.viewmodel.ScreenDestination
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
