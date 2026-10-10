@@ -1,4 +1,4 @@
-package com.example.ui.screens
+package com.abhisadan.pdftoolkit.ui.screens
 
 import android.net.Uri
 import androidx.activity.compose.BackHandler
@@ -72,15 +72,15 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.rememberAsyncImagePainter
-import com.example.engine.PageSizePreset
-import com.example.ui.components.PdfTopBar
-import com.example.ui.components.PrivacyBadge
-import com.example.ui.theme.CardBorderGradient
-import com.example.ui.theme.GreenSuccess
-import com.example.ui.theme.PdfPrimary
-import com.example.ui.theme.ToolCoral
-import com.example.ui.viewmodel.PdfViewModel
-import com.example.ui.viewmodel.ScreenDestination
+import com.abhisadan.pdftoolkit.engine.PageSizePreset
+import com.abhisadan.pdftoolkit.ui.components.PdfTopBar
+import com.abhisadan.pdftoolkit.ui.components.PrivacyBadge
+import com.abhisadan.pdftoolkit.ui.theme.CardBorderGradient
+import com.abhisadan.pdftoolkit.ui.theme.GreenSuccess
+import com.abhisadan.pdftoolkit.ui.theme.PdfPrimary
+import com.abhisadan.pdftoolkit.ui.theme.ToolCoral
+import com.abhisadan.pdftoolkit.ui.viewmodel.PdfViewModel
+import com.abhisadan.pdftoolkit.ui.viewmodel.ScreenDestination
 import java.io.File
 
 @OptIn(ExperimentalMaterial3Api::class)
