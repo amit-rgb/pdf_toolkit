@@ -9,11 +9,11 @@ plugins {
 }
 
 android {
-  namespace = "com.example"
+  namespace = "com.abhisadan.pdftoolkit"
   compileSdk { version = release(36) { minorApiLevel = 1 } }
 
   defaultConfig {
-    applicationId = "com.aistudio.pdftoolkit.kxrvqp"
+    applicationId = "com.abhisadan.pdftoolkit"
     minSdk = 24
     targetSdk = 36
     versionCode = 2
