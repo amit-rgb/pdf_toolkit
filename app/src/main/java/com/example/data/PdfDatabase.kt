@@ -1,4 +1,4 @@
-package com.example.data
+package com.abhisadan.pdftoolkit.data
 
 import android.content.Context
 import androidx.room.Dao
