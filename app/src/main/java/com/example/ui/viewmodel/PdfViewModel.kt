@@ -1,4 +1,4 @@
-package com.example.ui.viewmodel
+package com.abhisadan.pdftoolkit.ui.viewmodel
 
 import android.app.Application
 import android.content.Context
@@ -9,12 +9,12 @@ import android.widget.Toast
 import androidx.core.content.FileProvider
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.data.PdfAppDatabase
-import com.example.data.PdfRepository
-import com.example.data.RecentFileEntity
-import com.example.engine.PageAnnotations
-import com.example.engine.PageSizePreset
-import com.example.engine.PdfEngine
+import com.abhisadan.pdftoolkit.data.PdfAppDatabase
+import com.abhisadan.pdftoolkit.data.PdfRepository
+import com.abhisadan.pdftoolkit.data.RecentFileEntity
+import com.abhisadan.pdftoolkit.engine.PageAnnotations
+import com.abhisadan.pdftoolkit.engine.PageSizePreset
+import com.abhisadan.pdftoolkit.engine.PdfEngine
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
