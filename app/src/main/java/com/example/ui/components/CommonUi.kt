@@ -1,4 +1,4 @@
-package com.example.ui.components
+package com.abhisadan.pdftoolkit.ui.components
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.background
@@ -47,8 +47,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
-import com.example.ui.theme.GreenSuccess
-import com.example.ui.theme.PdfPrimary
+import com.abhisadan.pdftoolkit.ui.theme.GreenSuccess
+import com.abhisadan.pdftoolkit.ui.theme.PdfPrimary
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
